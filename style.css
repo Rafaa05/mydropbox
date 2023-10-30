@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 11px;
+}
+
+.started{
+    background-color: #0057E5;
+    color: white;
+    padding: 10px;
+    font-weight: bold;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -1150px;
+    margin-top: 3px;
+
+}
+
+.logo2{
+    margin-left: -360px;
+    margin-top: 3px;
+    width: 47px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.video2{
+    width: 750px;
+    height: 750px;
+    margin-left: 300px;
+    margin-top: -90px;
+}
+
+.leftt{
+    margin-left: -870px;
+    margin-top: 23px;
+    font: 16px;
+    font-weight: 400px;
+}
+
+.rightt{
+    margin-right: -300px;
+    margin-top: 20px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.tryit{
+    background-color: #0057E5;
+    padding: 25px;
+    color: black;
+}
+
+.need{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.store{
+    font-weight: bold;
+}
+
+.ora{
+    color: white;
+    text-decoration:underline;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p{
+    font-size: 15px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.div1 {
+    width: 600px;
+    height: 520px;
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    max-height: 100%;
+    font-size: 20px;
+}
+
+.div2 {
+    width: 1273px;
+    height: 600px;
+    background-color: #1e1919;
+    color: white;
+    margin-left: 630px;
+    margin-top: -600px;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0070E0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0050A0;
+}
+
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
